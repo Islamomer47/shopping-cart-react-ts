@@ -1,0 +1,5 @@
+@import "tailwindcss";
+/* Hide native clear button for search input */
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
